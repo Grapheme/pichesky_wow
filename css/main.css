@@ -1130,6 +1130,18 @@ body.closed {
     text-align: right;
     line-height: 1em;
 }
+.gain-list.right > dt span {
+    font-size: 14px;
+    vertical-align: super;
+}
+.gain-list.right dd span {
+    color: rgba(255, 255, 255, 0.59);
+    display: inline-block;
+    font-size: 10px;
+    line-height: 11px;
+    position: absolute;
+    vertical-align: top;
+}
 .gain-list dd {
     margin: 0 0 26px;
     font-size: 18px;
