@@ -845,6 +845,9 @@ body.closed {
     -webkit-transform: scale(.75);
     transform: scale(.75);
 }
+.drink-wrapper {
+    height: 620px;
+}
 .drink-wrapper.opened {
     z-index: 0;
 }
@@ -1064,9 +1067,9 @@ body.closed {
     position: relative;
     z-index: 2;
     width: 1280px;
-    height: 720px;
+    height: 620px;
     margin: 0 auto;
-    padding: 264px 0 0;
+    padding: 194px 0 0;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1075,7 +1078,7 @@ body.closed {
 .drink:after {
     content: "";
     position: absolute;
-    top: 102px;
+    top: 32px;
     left: 50%;
     width: 155px;
     height: 529px;
