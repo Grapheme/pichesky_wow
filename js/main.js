@@ -11,13 +11,14 @@ var Loader = (function(){
 			$fullLogo.hide();
 			$('.loader').addClass('opened');
 			$('.wrapper').removeClass('opened');
+
 			setTimeout( function(){	$('body').addClass('opened'); $('.wrapper').addClass('ontop'); coolDown = false; }, 1600); //Transition time
 		},
 		close: function() {
 			if(coolDown) { return; }
 			coolDown = true;
 			$('.loader').removeClass('opened');
-			$('.wrapper').addClass('opened').removeClass('ontop');
+			$('.wrapper').addClass('opened').removeClass('ontop');			
 			setTimeout( function(){	$('body').removeClass('opened'); $fullLogo.delay(200).fadeIn(); coolDown = false; }, 1600); //Transition time
 		},
 		alignPart: function() {
@@ -38,11 +39,13 @@ $(window).resize(function(){
 });
 $(document).on('click touchstart', 'body', function(e){
 	Loader.open();
+	$('.loader-cont .tips').fadeToggle(600);
 });
 
 $(document).on('click touchstart', '.drink .cross', function(e){
 	e.stopPropagation();
 	Loader.close();
+	$('.loader-cont .tips').fadeToggle(600);
 });
 
 $(document).on('click touchstart', '.tab a', function(e){
