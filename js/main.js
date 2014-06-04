@@ -41,14 +41,14 @@ $(function(){
 $(window).resize(function(){
 	Loader.alignPart();
 });
-$(document).on('click touchstart', 'body', function(e){
-	Loader.open();
-});
+// $(document).on('click touchstart', 'body', function(e){
+// 	Loader.open();
+// });
 
-$(document).on('click touchstart', '.drink .cross', function(e){
-	e.stopPropagation();
-	Loader.close();
-});
+// $(document).on('click touchstart', '.drink .cross', function(e){
+// 	e.stopPropagation();
+// 	Loader.close();
+// });
 
 $(document).on('click touchstart', '.tab a', function(e){
 	e.preventDefault();

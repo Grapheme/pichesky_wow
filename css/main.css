@@ -1069,7 +1069,7 @@ body.closed {
     width: 1280px;
     height: 620px;
     margin: 0 auto;
-    padding: 194px 0 0;
+    padding: 184px 0 0;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1078,7 +1078,7 @@ body.closed {
 .drink:after {
     content: "";
     position: absolute;
-    top: 32px;
+    top: 22px;
     left: 50%;
     width: 155px;
     height: 529px;
@@ -1092,9 +1092,9 @@ body.closed {
 .drink-logo {
     position: absolute;
     top: 30px;
-    left: 30px;
-    width: 60px;
-    height: 60px;
+    left: 11px;
+    width: 96px;
+    height: 98px;
     background: url(../img/drink/logo.png) no-repeat 0 0 / 100% 100%;
 }
 .drink-logo a {
@@ -1159,7 +1159,7 @@ body.closed {
 }
 .tabs {    
     position: absolute;
-    bottom: 12px;
+    bottom: 27px;
     left: 0;
     width: 100%;    
     text-align: center;
@@ -1245,6 +1245,67 @@ body.closed {
     z-index: 3;
     color: rgba(255, 255, 255, .59);
 }
+.top-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.top-links li {
+    display: inline-block;
+    width: 166px;
+    height: 67px;
+    margin-right: 1px;
+
+    background: rgba(0, 0, 0, .6);
+    vertical-align: top;
+
+    transition: all .4s ease;
+    -weblit-transition: all .4s ease;
+}
+.top-links li:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+.top-links .mailer {
+    width: 85px;
+    margin: 0;
+    background: url(../img/drink/mailer.png) no-repeat center 32px rgba(0, 0, 0, .6);
+}
+.top-links .mailer:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+.top-links li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 14px;
+    line-height: .9;
+    text-transform: uppercase;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top-links .link-comix a {
+    padding: 32px 0 0 7px;
+}
+.top-links .link-promo a {
+    padding: 32px 0 0 10px;
+}
+.drink-footer {
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+
+    font-size: 12px;
+    line-height: 23px;
+    color: #e2e2e2;
+    text-transform: uppercase;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
