@@ -1142,6 +1142,15 @@ body.closed {
     position: absolute;
     vertical-align: top;
 }
+.gain-star {
+    position: relative;
+}
+.gain-star:after {
+    content: "*";
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+}
 .gain-list dd {
     margin: 0 0 93px;
     font-size: 18px;
@@ -1151,7 +1160,7 @@ body.closed {
 }
 .gain-list.right {
     float: right;
-    margin: -11px 13px 0 0;
+    margin: 0 13px 0 0;
 }
 .gain-list.right dt,
 .gain-list.right dd {
