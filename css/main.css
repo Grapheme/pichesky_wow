@@ -1151,7 +1151,7 @@ body.closed {
 }
 .gain-list.right {
     float: right;
-    margin: 0 13px 0 0;
+    margin: -11px 13px 0 0;
 }
 .gain-list.right dt,
 .gain-list.right dd {
