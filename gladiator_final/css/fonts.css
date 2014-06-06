@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'ocrf-light';
+	src: url('../fonts/ocrf/OCRF-LightC.eot');
+	src: local('☺'), url('../fonts/ocrf/OCRF-LightC.woff') format('woff'),
+					 url('../fonts/ocrf/OCRF-LightC.ttf') format('truetype'),
+					 url('../fonts/ocrf/OCRF-LightC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
